@@ -1,0 +1,16 @@
+.edit button{
+    border: none;
+    font-size: 38px;
+    background-color: transparent;
+    margin-right: 15px;
+  }
+
+  .edit button:hover{
+    color: #0056b3 !important;
+  }
+
+  @media screen and (max-width:425px) {
+    .edit button{
+      font-size: 30px;
+    }
+  }

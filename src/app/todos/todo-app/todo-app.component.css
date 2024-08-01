@@ -1,0 +1,20 @@
+
+.play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .todo-title {
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .my-mt{
+    margin-top: 100px;
+  }
+
+  @media screen and (min-width:768px) {   
+    .border-radius{
+      border-radius: 10px;
+    }
+  }

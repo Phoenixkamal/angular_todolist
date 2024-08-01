@@ -1,0 +1,15 @@
+<div>
+    <ul class="list">
+        <li class="list-item" *ngFor="let data of todoList">
+            <app-ischecked [id]="data.id" [ischecked]="data.checked"></app-ischecked>
+            <div class="data">
+                <p class="antic-slab-regular" *ngIf="!data.toggleEdit">{{data.data}}</p>
+                 <app-editform *ngIf="data.toggleEdit" [data]="data.data" [id]="data.id"></app-editform>
+            </div>
+            <div class="buttons d-flex">
+                <app-edit class="app-edit" [id]="data.id" *ngIf="!data.toggleEdit"></app-edit>
+                <app-delete class="app-delete" [id]="data.id"></app-delete>
+            </div>
+        </li>
+    </ul>
+</div>

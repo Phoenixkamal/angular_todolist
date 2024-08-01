@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "checked": true,
+      "data": "HTML",
+      "toggleEdit": false
+    },
+    {
+      "id": "2",
+      "checked": true,
+      "data": "CSS",
+      "toggleEdit": false
+    },
+    {
+      "id": "3",
+      "checked": true,
+      "data": "Javascript",
+      "toggleEdit": false
+    },
+    {
+      "id": "4",
+      "checked": true,
+      "data": "React js",
+      "toggleEdit": false
+    },
+    {
+      "id": "5",
+      "checked": true,
+      "data": "Typescript",
+      "toggleEdit": false
+    },
+    {
+      "id": "6",
+      "checked": false,
+      "data": "Angular",
+      "toggleEdit": false
+    }
+  ]
+}

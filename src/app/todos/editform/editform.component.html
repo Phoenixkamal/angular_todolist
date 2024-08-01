@@ -1,0 +1,10 @@
+<form action="" class="editform" #editform="ngForm" (submit)="handleEditSubmit(editform)">
+    <div class="myformgroup">
+        <div class="input-group">
+            <input class="inputdata form-control antic-slab-regular" type="text" name="inputdata" id="inputdata" [(ngModel)]="data" required>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit" [disabled]="editform.invalid"><i class="fa-solid fa-pen"></i></button>
+             </div>
+        </div>    
+    </div>
+</form>

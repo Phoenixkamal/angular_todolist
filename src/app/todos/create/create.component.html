@@ -1,0 +1,5 @@
+<form action="" class="d-flex ml-auto" #todoform="ngForm" (submit)="addData()">
+    <input class="form-control mr-2" type="search" placeholder="Add todo" aria-label="Search" [(ngModel)]="todoInput" name="todoinput" id="todoinput" required>
+    <button class="btn btn-outline-light" type="submit" [disabled]="todoform.invalid"><i class="fa-solid fa-plus"></i></button>
+</form>
+

@@ -1,0 +1,15 @@
+.delete button:hover{
+    color:#c82333!important;
+  }
+
+ .delete button{
+    border: none;
+    font-size: 38px;
+    background-color: transparent;
+  }
+
+  @media screen and (max-width:425px) {
+    .delete button{
+      font-size: 30px;
+    }
+  }

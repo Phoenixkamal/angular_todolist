@@ -1,0 +1,50 @@
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.list-item {
+  margin-top: 30px;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  padding: 17px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item>* {
+  align-self: center;
+}
+
+.data p {
+  margin-bottom: 0;
+  margin-right: 20px;
+  text-align: justify;
+  color: #003366;
+}
+
+.antic-slab-regular {
+  font-family: "Antic Slab", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.inputdata{
+  border: none;
+}
+
+@media screen and (max-width:425px) {
+  .antic-slab-regular{
+    font-size: 25px;
+  }
+  .app-edit{
+    display: flex;
+    align-items: center;
+  }
+  .app-delete{
+    display: flex;
+    align-items: center;
+  }
+}
